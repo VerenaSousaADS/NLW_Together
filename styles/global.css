@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --black:#0D114F;
+    --white:#FAFAFA;
+    --red:#E83F5B;
+    --light-blue:#E0ECFF;
+    --blue:#3485FF;
+    --background:#FBFCFF;
+    --overlay:#040911;
+    --icons-details:#A5B0C1;
+
+    --grey-dark:#4D5E77;
+    --grey-blue:#A1B2CD;
+    --grey-medium:#D3D9E2;
+    --grey-light:#E5EAF1;
+
+    /* Para deixar sua aplicação responsiva é melhor usar o rem ("root em" -- que é igual ao tamanho 
+    da fonte fixada ao elemento-raiz ,quase sempre <html>. -- ) no lugar dos px (pixels)*/
+
+    /* 1rem = 16px = 100% (User Agent) (Você pode setar o navegador para 10px, 
+    pois assim a divisão do restante código ficará mais simples)*/ 
+
+    font-size: 62.5%; /* 10px */
+
+    /* Como você já setou seu User Agent para 10px, Ex.: 28px se tornam 2.8rem*/
+
+}
+
+body{
+    height: 100vh; /*view height, ou seja a altura completa da tela*/
+   /* width: 100vw;*/ /*view width, ou seja a largura total da tela*/
+   background: var(--background);
+
+}
+
+body, button, input, textarea{
+    /* intervalo de tamanho */
+    font-size: clamp(14px, 1.6rem, 2vw);
+
+}
