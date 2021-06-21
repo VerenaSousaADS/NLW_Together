@@ -64,3 +64,45 @@ body, button, input, textarea{
     white-space: nowrap;
     border-width: 0;
 }
+
+/* input e buttons */
+
+input, button, .button{
+    border-radius: .8rem;
+    height: 5rem;
+}
+
+button, .button{
+    font-family: 'Poppins';
+    font-weight: 500;
+
+    /* Tamanho que acompanha as linhas do texto, aumenta o espaçamento */
+    line-height: 0;
+
+    display: flex;
+
+    /* Alinhamento na vertical */
+    align-items: center;
+
+    /* Alinha na horizontal, alinha imagem junto  */
+    justify-content: center;
+
+    background: var(--blue);
+    color: var(--white);
+
+    /* suaviza a velocidade do brilho nos botões */
+    transition: filter .2rem;
+
+    cursor: pointer;
+}
+
+button:hover, .button:hover{
+
+    /* aplicar brilho nos botões */
+    filter: brightness(1.2);
+}
+
+button > img
+.button > img{
+    margin-right: 1rem;
+}

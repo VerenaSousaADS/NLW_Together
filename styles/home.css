@@ -27,3 +27,18 @@ main{
 main .container{
    width: min(36.3rem 100%) /*Sempre optará pelo o que for menor naquele momento*/; 
 }
+
+main h2{
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: clamp(20px, 5vw, 2.8rem);
+
+    margin-bottom: 2.4rem;
+}
+
+
+
+input{
+    border: 0.2rem solid var(--grey-blue);
+    padding: 0 1.6rem;
+}
