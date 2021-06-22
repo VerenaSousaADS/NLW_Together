@@ -1,0 +1,18 @@
+#room header{
+    width: 100%;
+
+    display: flex;
+
+    /* vertical */
+    align-items: center;
+    /* horizontal */
+    justify-content: center;
+}
+
+#room header .buttons{
+    display: flex;
+}
+
+#room header .buttons .buttons:nth-child(1){
+    margin-right: .8rem;
+}
