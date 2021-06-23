@@ -18,8 +18,9 @@ html{
 
     --grey-dark:#4D5E77;
     --grey-blue:#A1B2CD;
-    --grey-medium:#D3D9E2;
+    --grey-medium:#eaecf2;
     --grey-light:#E5EAF1;
+
 
     /* Para deixar sua aplicação responsiva é melhor usar o rem ("root em" -- que é igual ao tamanho 
     da fonte fixada ao elemento-raiz ,quase sempre <html>. -- ) no lugar dos px (pixels)*/
@@ -104,7 +105,7 @@ button:hover, .button:hover{
     filter: brightness(1.2);
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;

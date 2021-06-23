@@ -100,3 +100,70 @@
     line-height: 2.4rem;
     padding: .8rem 2.4rem;
 }
+
+/* Questions */
+
+.question-wrapper{
+    background: var(--light-blue);
+    margin-bottom: .8rem;
+    border-radius: 0 .8rem .8rem .8rem;
+    padding: 2.4rem;
+    
+}
+
+.question-wrapper .question-content{
+    display: flex;
+
+    /* Alinhar ao topo */
+    align-items: flex-start;
+}
+
+.question-wrapper .question-content .user{
+    background: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+}
+
+.question-wrapper .question-content p{
+    display: flex;
+    word-break: break-word;
+    align-items: center;
+    margin-left: 1.6rem; 
+    
+}
+
+.question-wrapper .actions{
+    display: flex;
+    align-items: center;
+
+    /* Coloca as actions para o final da question-wrapper */
+    justify-content: flex-end;
+}
+
+.question-wrapper .actions > a{
+    display: flex;
+    align-items: center;
+
+}
+
+.question-wrapper .actions > a > img{
+    margin-right: .8rem;
+}
+
+/* aplicar o margin-left apenas no seletor irmão de a */
+
+.question-wrapper .actions > a + a{
+    margin-left: 2.4rem;
+}
+
+/* * Question Read * */
+
+.question-wrapper.read {
+    background: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content .user {
+    background: var(--grey-blue);
+}
+
+ 
