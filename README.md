@@ -1,17 +1,25 @@
-#README
+<h1> Implementação de aplicação da NLW Together Discover desenvolvida pela Rocketseat </h1>
 
-**Criação da a aplicação Rocket.Q desenvolvida na NLW-Together da Rocketseat.
+<h2> Rocket.Q </h2>
 
-**Tecnologias usadas na Aula 01, Aula 02:
+<p><strong>Tecnologias usadas na Aula 01, Aula 02:</strong></p>
 
---CSS
+<ul>
 
---Html
+<li>Html</li>
 
-**O que foi feito na Aula 02:
+<li>CSS</li>
 
---Iniciamos as páginas create-pass.html e room.html
+</ul>
 
---Terminamos a página home.html e create-pass.html
+<p><strong> O que foi feito na Aula 02:</strong></p>
 
---Criamos as estilizações das páginas create-pass.html e room.html, sendo quê a estilização de create-pass.html ficou em home.css e para a página room.html foi criado o arquivo room.css
+<ul>
+
+<li>Iniciamos as páginas create-pass.html e room.html</li>
+
+<li>Terminamos a página home.html e create-pass.html</li>
+
+<li>Criamos as estilizações das páginas create-pass.html e room.html, sendo quê a estilização de create-pass.html ficou em home.css e para a página room.html foi criado o arquivo room.css</li>
+
+</ul>
