@@ -1,0 +1,27 @@
+{
+  "name": "Rocket.Q",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuarios direcionandas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerenaSousaADS/NLW_Together.git"
+  },
+  "keywords": [],
+  "author": "Verena Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerenaSousaADS/NLW_Together/issues"
+  },
+  "homepage": "https://github.com/VerenaSousaADS/NLW_Together#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
