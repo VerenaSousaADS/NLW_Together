@@ -1,0 +1,31 @@
+const Database = require("../db/config")
+
+
+module.exports = {
+    async create(req, res){
+        
+        const db = await Database()
+        const pass = req.body.password
+        let roomId
+
+        for(var i = 0; i < 6; i++){
+            i == 0 ? roomId = Math.floor(Math.random() * 10).toString() : 
+            // Concatenção de string, para isso server o toString, para transformar esse número em uma string
+            roomId += Math.floor(Math.random() * 10).toString()
+        }
+
+        console.log(parseInt(roomId))
+
+        await db.run(`INSERT INTO rooms (
+            id,
+            pass
+        ) VALUES (
+            ${parseInt(roomId)},
+            ${pass}
+        )`)
+            // parseInt transformou a string roomId em um número inteiro
+        await db.close()
+
+        res.redirect(`/room/${roomId}`)
+    }
+}

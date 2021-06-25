@@ -20,6 +20,9 @@ server.use(express.static("public"))
 // o path é o caminho que o projeto está no meu computador, o join serve para juntar esse path com o __dirname, que é nesse caso o src/, com o views, que é o nome da pasta dentro de src
 server.set('views', path.join(__dirname, 'views'))
 
+// isso é um midware entre a rota e o formulário 
+server.use(express.urlencoded({extended: true}))
+
 server.use(route)
 
 // chamar o modulo listen
