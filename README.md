@@ -2,6 +2,8 @@
 
 <h2> Rocket.Q </h2>
 
+<img src="./public/images/capa.png">
+
 <p><strong>Tecnologias Usadas no Projeto</strong></p>
 
 <ul>
