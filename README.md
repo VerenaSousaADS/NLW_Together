@@ -1,8 +1,8 @@
-<h1> Implementação de aplicação da NLW Together Discover desenvolvida pela Rocketseat </h1>
+<h1>NLW Together Discover pela Rocketseat </h1>
 
 <h2> Rocket.Q </h2>
 
-<p><strong>Tecnologias usadas na Aula 01, Aula 02:</strong></p>
+<p><strong>Tecnologias Usadas no Projeto</strong></p>
 
 <ul>
 
@@ -10,16 +10,36 @@
 
 <li>CSS</li>
 
+<li>JavaScript</li>
+
+<li>Node.js</li>
+
+<li>Banco de Dados com SQLLite</li>
+
+<li>EJS</li>
+
 </ul>
 
-<p><strong> O que foi feito na Aula 02:</strong></p>
+<p><strong>Aprendizado: </strong></p>
 
 <ul>
 
-<li>Iniciamos as páginas create-pass.html e room.html</li>
+<li>Como importar e exportar funções com JavaScript</li>
 
-<li>Terminamos a página home.html e create-pass.html</li>
+<li>Mapeamento de classes</li>
 
-<li>Criamos as estilizações das páginas create-pass.html e room.html, sendo quê a estilização de create-pass.html ficou em home.css e para a página room.html foi criado o arquivo room.css</li>
+<li>Utilização de:</li>
+
+<ol> 
+
+<li>Função addEventListener</li>
+<li>Operadores lógicos com JavaScript</li>
+<li>Controllers e implementação de rotas</li>
+<li>EJS</li>
+<li>Express</li>
+
+</ol>
+
+<li>Como criar um Banco de Dados em SQLLite</li>
 
 </ul>
